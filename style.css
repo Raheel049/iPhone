@@ -1,0 +1,652 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width:80%;
+    height:44px;
+    background-color: #FFFFFFCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.img{
+    width: 100%;
+    height: 570px;
+    background-color: #f5f5f7;
+    padding:80px 0;
+}
+
+.bgImg{
+    background-image: url(pic1.jpg);
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    
+}
+
+.headpara{
+    display: flex;
+    flex-direction: column;
+}
+
+.headpara h1{
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.headpara p{
+    text-align: center;
+    font-size: 26px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.firstbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.firstbutton button{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 130px;
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: none;
+}
+
+.Section2{
+    height: 570px;
+    width: 100%;
+    background-color: #000;
+    padding: 80px 0;
+    margin-bottom: 20px;
+
+}
+
+.section2headpara{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section2headpara h1{
+    color:white;
+    text-align: center;
+    display:inline-block
+    
+}
+
+.section2headpara p{
+    color:white;
+    text-align: center;
+    font-size: 26px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.section2butt{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.learnbutt button{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 130px;
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: none;
+    margin-right: 20px;
+}
+
+.buybutt button{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 60px;
+    color:blue;
+    background-color: #000;
+    cursor: pointer;
+    padding: 11px 12px;
+    border:2px solid blue;
+}
+
+.image2{
+    background-image: url(pic2.jpg);
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding-bottom:50px;
+}
+
+
+.section3{
+    
+    min-height:500px;
+    width:100%;
+    /* background-color: rgb(7, 4, 92); */
+    /* background: linear-gradient(#0e143f 20%, #fff); */
+    padding: 80px 0;
+}
+
+.section3heding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section3heding h1{
+    color:white;
+    padding-top: 20px;
+    
+}
+
+.section3heding p{
+    color:white;
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.learnbutton{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 130px;
+    color:black;
+    background-color:#ffffff;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: none;
+    margin-right: 20px;
+}
+
+.buybutton{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 60px;
+    color:#ffffff;
+    background-color: rgb(7, 4, 92);
+    /* opacity: inherit; */
+    cursor: pointer;
+    padding: 11px 12px;
+    border:2px solid #ffffff;
+}
+
+.section3-images{
+    background-image: url(pic3.jpg);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    width: 100%;
+    height: 570px;
+    position: relative;
+    padding-bottom:10px;
+
+}
+
+
+.sectionFour{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    gap:20px;
+    flex:1;
+    /* background-color: #000; */
+}
+
+.sectionFour-img1{
+    background-image: url(pic4.jpg);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    width: 50%;
+    height: 570px;
+    position: relative;
+    padding-bottom:50px;
+}
+
+
+.sectionFour-img2{
+    background-image: url(pic5.jpg);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 570px;
+    position: relative;
+    padding-bottom:50px;
+}
+
+
+
+.headingParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.sectionFour-heding h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionFour-heding p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.air{
+    font-family: 'Franklin Gothic Medium';
+    color: blue;
+}
+
+.learnbutton-secFour1{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 130px;
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: none;
+    margin-right: 20px;
+}
+
+.buybutton-secFour2{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 60px;
+    color:blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border:2px solid blue;
+    background-color: inherit;
+}
+
+.bottomtext{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.bottomtext p{
+    padding-top: 320px;
+    background-image: linear-gradient(to right, blue, red);
+    background-clip: text;
+    color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headingParent-imge2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 50px 0;
+    margin-top: 300px;
+
+}
+
+.sectionFour-hedingimg2 h1{
+    text-align: center;
+    color: white;
+}
+
+.sectionFour-hedingimg2 p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+} 
+
+.learnbutton-secFour1img2{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 130px;
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: none;
+    margin-right: 20px;
+}
+
+.buybutton-secFour2img2{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 60px;
+    color:blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border:2px solid blue;
+    background-color: inherit;
+}
+ 
+
+.section5{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.section5img1{
+    background-image: url(pic6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 570px;
+    position: relative;
+}
+
+.section5img2{
+    background-image: url(pic7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 570px;
+    position: relative;
+   
+}
+
+.parSec5img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px 0;
+
+
+}
+
+.logo{
+    padding-top: 15px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.parsec5hed p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parasec5hed h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#ser{
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+
+}
+
+.mybutt{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 130px;
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.mybutton{
+    height: 43px;
+    font-size: 17px;
+    border-radius: 23px;
+    width: 60px;
+    color:blue;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 11px 12px;
+    border: 2px solid blue;
+    margin-right: 20px;
+}
+
+.parSecimg2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.parasec5hed p{
+    font-size: 23px;
+    padding: 13px 0;
+    text-align: center;
+
+}
+
+
+.section6{
+    height:570px;
+    width: 100%;
+    display: flex;
+    gap:20px;
+    
+}
+
+.section6img1{
+    background-image: url(pic8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 50%;
+    height: 570px;
+    position: relative;
+}
+
+.section6img2{
+    background-image: url(pic10.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    height:570;
+    width:50%;
+    position:relative;
+}
+
+.section6img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.section6img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.hedpara h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.hedpara p{
+    font-size: 19px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 0;
+}
+
+.hedparaimg2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.hedparaimg2 p{
+    font-size: 23px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.section6butt{
+    display: flex;
+    justify-content: center;
+}
+
+.section6butt button{
+    width:150px;
+    height: 43px;
+    background-color: blue;
+    border:none;
+    font-size:17px;
+    color:white;
+    border-radius: 23px;
+    
+}
+
+
+.section6buttimg2{
+    display: flex;
+    justify-content: center;
+}
+
+.classbutt{
+    height:43px;
+    width:130px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color:white;
+    border:none;
+    border-radius: 23px;
+    margin-right: 20px;
+
+
+}
+
+.classbutton{
+    height:43px;
+    width:130px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: inherit;
+    color:blur;
+    border:2px solid blue ;
+    border-radius: 23px;
+
+    
+}
+
+.section7{
+    height:570px;
+    width: 80%;
+    display: flex;
+    background-image: url(pic11.jpg);
+    background-position: center center;
+    justify-content: center;
+    position: relative;
+    left: 150px;
+
+
+
+} 
+
+.section7img1{
+    
+    background-size: 100%;
+    height: 570px;
+    width:80%;
+    
+    background-repeat: no-repeat;
+}
+
+.description p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fffffa
+    
+    
+}
+
+.full{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.mar{
+    margin: 8px 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraphlast{
+    margin-left: 13%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
